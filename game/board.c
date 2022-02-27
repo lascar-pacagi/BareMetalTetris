@@ -195,7 +195,7 @@ int delete_possible_lines(struct board *b)
   int nb_lines_deleted = 0;
   for (int i = 0; i < BOARD_HEIGHT; ++i)
     {
-      for (int j = 0; j < BOARD_WIDTH && b->area[i][j] != FREE; ++j); 
+      for (int j = 0; j < BOARD_WIDTH && b->area[i][j] != FREE; ++j) 
         if (j == BOARD_WIDTH)
           {
             ++nb_lines_deleted;
