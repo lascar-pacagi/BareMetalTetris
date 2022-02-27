@@ -5,6 +5,18 @@ To compile and run:
 make
 make run
 ```
+Commands:
+
+* Left:      `left arrow`
+* Right:     `right arrow`
+* Rotate:    `up arrow`
+* Accelerate fall: `down arrow`
+* Drop:     `space bar`
+* Pause:    `p`
+* New game: `n`
+* Sound on/off: `o` (beware the sound is loud)
+
+
 ![tetris qemu](tetris_qemu.png)
 
 To compile and debug:
